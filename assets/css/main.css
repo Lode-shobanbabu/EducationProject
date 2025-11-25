@@ -1461,7 +1461,7 @@ input[type=color] {
 }
 
 .black-bg {
-  background: var(--it-common-black);
+  background: #0D1B2A;
 }
 
 .grey-bg {
@@ -2347,9 +2347,9 @@ input[type=color] {
 }
 
 .it-section-subtitle {
-  color: var(--it-theme-1);
+  color: #0E2A46;
   font-size: 14px;
-  font-weight: 400;
+  font-weight: 900;
   height: 32px;
   line-height: 32px;
   padding: 0 22px;
