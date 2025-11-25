@@ -43,6 +43,8 @@
 /*----------------------------------------*/
 /* 01. THEME DEFAULT CSS START
 /*----------------------------------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@300;400;500;600;700;800;900&family=Sora:wght@400;500;600;700;800&family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet');
 :root {
   /**
@@ -86,7 +88,7 @@
 	typography css start 
 ---------------------------------*/
 body {
-  font-family: var(--it-ff-body);
+  font-family: "Roboto", sans-serif;
   font-size: 17px;
   font-weight: 400;
   color: var(--it-text-body);
@@ -2662,7 +2664,7 @@ input[type=color] {
   padding: 21px 0;
   display: inline-block;
   text-transform: capitalize;
-  font-family: var(--it-ff-heading);
+  font-family: "Roboto", sans-serif;
   color: var(--it-common-black);
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
@@ -3652,7 +3654,7 @@ input[type=color] {
   line-height: 1.2;
   text-transform: uppercase;
   color: var(--it-common-white);
-  font-family: var(--it-ff-poppins);
+  font-family: "Roboto", sans-serif;
   margin-bottom: 15px;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
